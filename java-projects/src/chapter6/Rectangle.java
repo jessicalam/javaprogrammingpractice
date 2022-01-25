@@ -13,24 +13,26 @@ public class Rectangle {
         setLength(length);   // can be set this way or with this.length = length;
         setWidth(width);
     }
-    double getLength() {
+
+    public double getLength() {
         return length;
     }
-    double setLength(double length ){
+
+    public void setLength(double length ){
         this.length = length;
     }
 
-    double getWidth() {
+    public double getWidth() {
         return width;
     }
-    double setWidth(double width) {
+    public void setWidth(double width) {
         this.width = width;
     }
 
-    double calculatePermiter() {
+    public double calculatePerimeter() {
         return ((2*length) + (2*width));
     }
-    double calculatedArea() {
+    public double calculatedArea() {
         return (length * width);
     }
 }
